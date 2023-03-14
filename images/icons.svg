@@ -64,7 +64,7 @@
         </symbol>
         <symbol id="icon-send" viewBox="0 0 24 20"><path d="M38.4 0 0 18l12.272 3.788L31.2 7 16.803 23.186l.012.004-.014-.004V32l6.882-6.691L32.401 28l6-28z"/></symbol>
         <symbol id="icon-menu-hamburger" viewBox="0 0 32 22">
-            <path stroke-linejoin="round" stroke-linecap="round" stroke-miterlimit="4" stroke-width="8.1818" d="M3.676 54.663h80.558M3.676 29.277h80.558M3.676 3.895h80.558"></path>
+            <path stroke="#2E2F42" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M1.348 20.043h29.539M1.348 10.735h29.539M1.348 1.428h29.539"/>
         </symbol>
     </defs>
 </svg>

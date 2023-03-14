@@ -30,10 +30,31 @@ body {
     text-decoration: none;
 }
 
+/*
 .container {
     width: 1158px;
     padding: 0px 15px;
     margin: 0 auto;
+}*/
+
+.container {
+    max-width: 428px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .container {
+        max-width: 1158px;
+    }
 }
 
 p,
@@ -83,48 +104,69 @@ img {
 }
 
 
+.header-menu,
+.header-contact {
+    display: none;
+}
+
+
+@media screen and (min-width: 768px) {
+    .header-nav, .header-burger{
+        display: flex;
+        align-items: center;
+        flex-grow: 1;
+        gap: 76px;
+    }   
+}
+
+.header-menu {
+    display: flex;
+    flex-grow: 1;
+    gap: 40px;
+}
+
+.header-burger {
+    display: none;
+}
 
 .header-contact {
     display: flex;
-    align-items: center;
-    gap: 76px;
+    /*align-items: center;
+    flex-direction: column;
+    gap: 76px;*/
 }
 
-@media (max-width: 1200px) {
+.contact-menu {
+    flex-direction: column;
+    gap: 4px;
+}
+
+.contact-menu .link {
+    padding: 0;
+}
+
+@media screen and (max-width: 1158px) {
     .header-contact {
-        flex-direction: column;
-        gap: 12px;
+        gap: 40px;
     }
 }
+
+.contact-menu {
+    flex-direction: row;
+    gap: 40px;
+}
+
 
 .header-container {
     display: flex;
     align-items: center;
-    width: 1158px;
+    justify-content: space-between;
+    /*width: 1158px;
     padding-right: 15px;
     padding-left: 15px;
-    margin: 0 auto;
+    margin: 0 auto;*/
 }
 
-@media (max-width: 768px) {
-    .header-container {
-        display: none;
-        width: 428px;
-        height: 70px;
-    }
-}
-
-.header-container-mobile {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-@media (min-width: 768px) {
-    .header-container-mobile {
-        display: none;
-    }
-}
 
 .header-burger {
    display: flex;
@@ -139,29 +181,9 @@ img {
 }
 
 
-
-.header-nav{ 
-    display: flex;
-    align-items: center;
-    flex-grow: 1;
-    gap: 76px;
-}
-
-.header-menu {
-    display: flex;
-    flex-grow: 1;
-    gap: 40px;
-}
-
-
-@media (max-width: 1200px) {
-    .header-contact {
-    gap: 40px;
-    }
-}
-
-
 .navig-logo {
+    padding: 24px 0;
+    display: block;
     font-family: 'Raleway', sans-serif;
     color: var(--color-two);
     letter-spacing: 0.03em;
