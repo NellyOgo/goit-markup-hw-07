@@ -328,14 +328,16 @@ img {
     font-weight: var(--font-weight700);
 }
 
-@media (min-width: 768px) and (max-width: 1199px) {
+@media (min-device-pixel-retio: 2),
+    (min-resolution: 192dpi).
+    (min-resolution: 2dppx) {
     .hero {
-    background: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/hero1.jpg 1x, ../images/hero2.jpg 2x');
-    background-position: center;
+    background: linear-gradient(to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url('../images/people-office@2x.jpg');
+    /*background-position: center;
     max-width: 768px;
     max-height: 436px;
     padding-top: 112px;
-    padding-bottom: 108px;
+    padding-bottom: 108px;*/
     }
 }
     
@@ -431,8 +433,6 @@ img {
         flex-basis: calc((100% - 24px *3) / 2);
     }
 }
- 
-
     
 .text-one {
     font-weight: 400;
@@ -741,7 +741,7 @@ background-color: var(--color-lightblue);
     border-width: 1px;
 }
 
-.name-card {
+.name-cardindex {
     padding-top: 32px;
     padding-bottom: 32px;
     padding-left: 16px;
