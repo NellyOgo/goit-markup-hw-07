@@ -18,7 +18,7 @@
 </head>
 <body>
     <header class="header">
-        <div class="containerheader-container">
+        <div class="container header-container">
                 <nav class="header-nav">
                     <a href="./index.html" class="navig-logo"><span class="navig-logoitem">Web</span>Studio</a>
                     <ul style="list-style: none" class="header-menu contact-menu">
@@ -29,7 +29,7 @@
                 </nav>
                 <div class="header-contact">
                     <address class="color-two">
-                        <ul style="list-style: none" class="header-menu">
+                        <ul style="list-style: none" class="header-menu-contect">
                             <li>
                              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
                             </li>
@@ -43,30 +43,75 @@
                     <svg width="32" height="22">
                         <use href="./images/icons.svg#icon-menu-hamburger"></use>
                     </svg>
-                </button>
-        </div>
-    </header>
-    <main>
-       <section class="hero">
-            <div class="container">
-                <h1 class="hero-name">Effective Solutions
-                    for Your Business</h1>
-                <button class="button-one" type="button" data-modal-open>Order Service</button>
-            </div>
-            <div class="mobile-menu mobile-menu.js">
-                <button class="model-close-js js-close-menu" type="button" data-modal-close>
-                    <svg class="close">
-                        <use href="./images/icons.svg#icon-close-black"></use>
-                    </svg>
-                </button>
-                <nav class="header-nav">
-                    <a href="./index.html" class="navig-logo"><span class="navig-logoitem">Web</span>Studio</a>
-                    <ul style="list-style: none" class="header-menu contact-menu">
-                        <li><a class="link current" href="./index.html">Studio</a></li>
-                        <li><a class="link" href="./portfolio.html">Portfolio</a></li>
-                        <li><a class="link" href="">Contacts</a></li>
-                    </ul>
-                </nav>
+                </button> 
+
+                <div class="mobile-menu js-menu-container">
+                    <button class="model-close-js js-close-menu" type="button" data-modal-close>
+                        <svg class="close">
+                            <use href="./images/icons.svg#icon-close-black"></use>
+                        </svg>
+                    </button>
+                    <div class="header-nav-modal">
+                         <ul class="contact-menu-nav">
+                            <li><a class="link current" href="./index.html">Studio</a></li>
+                            <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+                            <li><a class="link" href="">Contacts</a></li>        
+                        </ul>
+                        <ul class="mobile-nav-two">
+                            <li>
+                                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                            </li>
+                            <li>
+                                <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+                            </li>
+                        </ul>
+                        <ul class="icon-modal">
+                            <li class="socials-item">
+                                <a class="socials-link" href="#">
+                                    <svg class="socials-icon-modal">
+                                        <use href="./images/icons.svg#icon-instagram2"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials-item">
+                                <a class="socials-link" href="#">
+                                    <svg class="socials-icon-modal" width="104" height="56" width="40" height="40">
+                                        <use href="./images/icons.svg#icon-twitter1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials-item">
+                                <a class="socials-link" href="#">
+                                    <svg class="socials-icon-modal" width="40" height="40">
+                                        <use href="./images/icons.svg#icon-facebook1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                            <li class="socials-item">
+                                <a class="socials-link" href="#">
+                                    <svg class="socials-icon-modal" width="40" height="40">
+                                        <use href="./images/icons.svg#icon-linkedin1"></use>
+                                    </svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>        
+                </div>
+                <!--<div class="mobile-menu mobile-menu.js">
+                    <button class="model-close-js js-close-menu" type="button" data-modal-close>
+                        <svg class="close">
+                            <use href="./images/icons.svg#icon-close-black"></use>
+                        </svg>
+                    </button>
+                    <nav class="header-nav">
+                        <a href="./index.html" class="navig-logo"><span class="navig-logoitem">Web</span>Studio</a>
+                        <ul style="list-style: none" class="header-menu contact-menu">
+                            <li><a class="link current" href="./index.html">Studio</a></li>
+                            <li><a class="link" href="./portfolio.html">Portfolio</a></li>
+                            <li><a class="link" href="">Contacts</a></li>
+                        </ul>
+                    </nav>
+                </div>
                 <div class="header-contact">
                     <address class="color-two">
                         <ul style="list-style: none" class="header-menu">
@@ -78,43 +123,21 @@
                             </li>
                         </ul>
                     </address>
-                </div>
-                <ul class="icons-twice">
-                    <li class="socials-item">
-                        <a class="socials-link" href="#">
-                            <svg class="socials-icon">
-                                <use href="./images/icons.svg#icon-instagram2"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="socials-item">
-                        <a class="socials-link" href="#">
-                            <svg class="socials-icon" width="104" height="56" width="40" height="40">
-                                <use href="./images/icons.svg#icon-twitter1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="socials-item">
-                        <a class="socials-link" href="#">
-                            <svg class="socials-icon" width="40" height="40">
-                                <use href="./images/icons.svg#icon-facebook1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="socials-item">
-                        <a class="socials-link" href="#">
-                            <svg class="socials-icon" width="40" height="40">
-                                <use href="./images/icons.svg#icon-linkedin1"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
+                </div>-->
+           </div>    
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-name">Effective Solutions
+                    for Your Business</h1>
+                <button class="button-one" type="button" data-modal-open>Send</button>
             </div>
         </section>
-        <!--<section class="section-one">
+        <section class="section-one">
             <div class="container">
                 <h2 class="visually-hidden">about us</h2>
-                <ul style="list-style: none" class="pages">
+                <ul style="list-style: none" class="pages-img">
                     <li class="pages-icons">
                          <img src="./images/antenna1.svg" alt="clock" width="64">
                     </li>
@@ -130,27 +153,27 @@
                 </ul>
                 <ul style="list-style: none" class="pages">
                     <li class="pages-one">
-                        <h3 class="color-one">Strategy</h3>
+                        <h3 class="color-one-sect">Strategy</h3>
                         <p class="text-one">Our goal is to identify the business
                             problem to walk away with the perfect and creative solution.</p>
                     </li>
                     <li class="pages-one">
-                        <h3 class="color-one">Punctuality</h3>
+                        <h3 class="color-one-sect">Punctuality</h3>
                         <p class="text-one">Bring the key message to the brand's audience for the best price within the shortest possible
                             time.</p>
                     </li>
                     <li class="pages-one">
-                        <h3 class="color-one">Diligence</h3>
+                        <h3 class="color-one-sect">Diligence</h3>
                         <p class="text-one">Research and confirm brands that present the strongest digital growth opportunities and minimize risk.</p>
                     </li>
                     <li class="pages-one">
-                        <h3 class="color-one">Technologies</h3>
+                        <h3 class="color-one-sect">Technologies</h3>
                         <p class="text-one">Design practice focused on digital experiences. We bring forth a deep passion for problem-solving.</p>
                     </li>
                 </ul>
             </div>
-        </section>-->
-       <!--<section class="section-two">
+        </section>
+       <section class="section-two">
             <div class="container">
                 <h2 class="section-twice">What are we doing</h2>
                 <ul style="list-style: none" class="pages-twice">
@@ -165,8 +188,8 @@
                     </li>
                 </ul>
             </div>
-        </section>-->
-        <section class="last-section">
+        </section>
+       <!-- <section class="last-section">
             <div class="container">
                 <h2 class="section-twice">Our Team</h2>
                 <ul style="list-style: none" class="pages">
@@ -320,7 +343,7 @@
                     </li>
                 </ul>
             </div>
-        </section>
+        </section>-->
        <!--<section class="customers">
             <div class="container">
                 <h2 class="section-twice">Customers</h2>
@@ -426,7 +449,7 @@
             </div>
         </div>
     </footer>-->
-    <!--<div class="backdrop is-hidden" data-modal>
+    <div class="backdrop is-hidden" data-modal>
         <div class="model">
             <button class="model-close" type="button" data-modal-close>
                 <svg class="close">
@@ -481,7 +504,7 @@
                     <button type="submit" class="button-oneform">Send</button>
                 </form>
          </div>
-    </div>-->
+    </div>
 
     <script src="./modal.js/mobile-menu.js"></script>
     <script src="./modal.js/modal.js"></script>
