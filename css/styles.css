@@ -1129,24 +1129,26 @@ background-color: var(--color-lightblue);
 }
 @media screen and (min-width: 768px) {
     .footer-containerone {
+        display: block;
         width: 264px;
         height: 110px;
         text-align: left;
         justify-content: left; 
+        margin-left: 108px;
         
         }
         .footer-containertwo {
-            
+            display: block;
             text-align: left;
             justify-content: left;
             }
-    }
-        /*
+
         .footer-container-form {
-            margin-left: 108px;
-        }*/
-
-
+            text-align: left;
+        }
+    }
+        
+    
 
 @media screen and (min-width: 1200px) {
     .footer-containerone {
