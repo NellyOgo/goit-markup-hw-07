@@ -565,6 +565,7 @@ img {
     gap: 72px;
     margin-top: 8px;
     flex-direction: column;
+
 }
 
 @media screen and (min-width: 768px) {
@@ -574,6 +575,7 @@ img {
         text-align: left;
         flex-direction: row;
         flex-wrap: wrap;
+        
     }   
 }
 
@@ -585,6 +587,7 @@ img {
         gap: 24px;
         margin-top: 8px;
         flex-wrap: nowrap;
+        align-items: flex-start;
         }
     }
 
@@ -649,7 +652,7 @@ img {
 
 
 .text-one {
-    font-weight: var(--font-weight500);
+    font-weight: var(--font-weight400);
     font-size: 16px;
     line-height: var(--line-height15);
     letter-spacing: 0.02em;
@@ -664,7 +667,7 @@ img {
 
 @media screen and (max-width: 1200px) {
     .text-one {
-        font-weight: 400;
+        font-weight: var(--font-weight500);
         font-size: 16px;
         line-height: var(--line-height15);
         letter-spacing: 0.02em;
