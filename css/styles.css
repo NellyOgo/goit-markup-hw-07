@@ -597,6 +597,7 @@ img {
 
     text-align: left;
     flex-direction: column;
+    flex-basis: calc((100% - 3*24px) / 4);
 }
 
 
